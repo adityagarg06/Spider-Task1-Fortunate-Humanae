@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Fortunate Humanae Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Fortunate Humanae Game</h1>
+        </div>
+
+        <table>
+            <thead>
+                <tr class="heading">
+                    <th>Box Number</th>
+                    <th>Player 1</th>
+                    <th>Player 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="number"> 1 </td>
+                    <td class="content" id="first"> </td>
+                    <td class="content" id="first2"> </td>
+                </tr>
+                <tr>
+                    <td class="number"> 2</td>
+                    <td class="content" id="second"> </td>
+                    <td class="content" id="second2"> </td>
+                </tr>
+                <tr>
+                    <td class="number"> 3</td>
+                    <td class="content" id="third"> </td>
+                    <td class="content" id="third2"> </td>
+                </tr>
+                <tr>
+                    <td class="number">4 </td>
+                    <td class="content" id="forth"> </td>
+                    <td class="content" id="forth2"> </td>
+                </tr>
+                <tr>
+                    <td class="number"> 5 </td>
+                    <td class="content" id="five"> </td>
+                    <td class="content" id="five2"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="generator">
+            <h2>
+                Generate Random Number
+            </h2>
+            <input type="text" class="area" id="area">
+            <button class="btn" id="btn1">Player 1</button>
+            <button class="btn" id="btn2">Player 2</button>
+            <button class="btn" id="btn3">Start Over</button>
+
+        </div>
+        <div class="score-board">
+            <div class="player">
+              <h4>Player 1</h4>
+              <div class="score-box" id="score-box1">
+              </div>
+            </div>
+            <div class="player">
+              <h4>Player 2</h4>
+              <div class="score-box" id="score-box2">
+              </div>
+            </div>
+          </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
